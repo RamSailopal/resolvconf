@@ -59,7 +59,7 @@ There will be two DNS configuration files in **/storage/local/etc**
     
 **nameserver 1.1.1.1**
     
-Amend the files as neccesary. 
+Amend the NOVPNDNS.conf file as neccesary for you local network DNS server. 
     
 
     
