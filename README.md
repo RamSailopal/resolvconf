@@ -1,4 +1,4 @@
-## resolvconf
+# resolvconf
 
 Resolvconf binary
 
@@ -6,13 +6,13 @@ Used to set up VPN connection for Kodi running LibreElec, running on a RasberryP
 
 LibreElec is a minimilized Linux operating system used to exclusively run Kodi. This means that the root file system is read only and it is difficult to add additional applications outside of the Kodi interface.
 
-# Components
+## Components
  
 1) **Openresolv** is an OpenVPN addon to allow for the updating to DNS servers and in particular /etc/resolv.conf - http://roy.marples.name/projects/openresolv/
 
 2) **update-resolv-conf.sh** - https://github.com/alfredopalhares/openvpn-update-resolv-conf This repo contains a "reworked" version of update-resolv-conf.sh. Testing with the original script didn't work
 
-# Steps to install
+## Steps to install
 
 1) Install the OpenVPN addon for Kodi with the following zip file https://github.com/Zomboided/repository.zomboided.plugins/releases/download/1.0.0/repository.zomboided.plugins-1.0.0.zip
 
