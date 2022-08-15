@@ -1,5 +1,7 @@
 # resolvconf
 
+![Alt text](kodi.png?raw=true "Kodi")
+
 Resolvconf binary
 
 Used to set up VPN connection for Kodi running LibreElec, running on a RasberryPi, using ProtonVPN as a service provider
