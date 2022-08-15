@@ -43,7 +43,7 @@ LibreElec is a minimilized Linux operating system used to exclusively run Kodi. 
       
 9)    Amend the imports vpn files with the following command:
 
-        find /storage/.kodi/userdata/addon_data/service.vpn.manager/UserDefined/ -name "*.ovpn" -exec sed -i 's@/etc/update-resolv-conf.sh@/storage/local/sbin/pdate-resolv-conf.sh@' '{}' \;
+        find /storage/.kodi/userdata/addon_data/service.vpn.manager/UserDefined/ -name "*.ovpn" -exec sed -i 's@/etc/update-resolv-conf.sh@/storage/local/sbin/pdate-resolv-conf.sh@' '{}' \\;
      
       
 
