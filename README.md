@@ -32,7 +32,9 @@ LibreElec is a minimilized Linux operating system used to exclusively run Kodi. 
 
 6) scp the downloaded zip file to the **/tmp** folder of your Kodi machine.
 
-7)    mkdir /tmp/ProtonVPN
+7)    
+
+      mkdir /tmp/ProtonVPN
       cd /tmp/ProtonVPN
       unzip /tmp/ProtonVPN_server_configs.zip
       
