@@ -2,9 +2,9 @@
 
 Resolvconf binary
 
-Used to set up VPN connection for Kodi running LibreElec, running on a RasberryPi
+Used to set up VPN connection for Kodi running LibreElec, running on a RasberryPi, using ProtonVPN as a service provider
 
-LibreElec is a minimilised Linux operating system used to exclusively run Kodi. This means that the root file system is read only and it is difficult to add additional applications outside of the Kodi interface.
+LibreElec is a minimilized Linux operating system used to exclusively run Kodi. This means that the root file system is read only and it is difficult to add additional applications outside of the Kodi interface.
 
 # Components
  
@@ -14,17 +14,28 @@ LibreElec is a minimilised Linux operating system used to exclusively run Kodi. 
 
 # Steps to install
 
-1) Enable ssh access to Kodi
+1) Install the OpenVPN addon for Kodi with the following zip file https://github.com/Zomboided/repository.zomboided.plugins/releases/download/1.0.0/repository.zomboided.plugins-1.0.0.zip
 
-2) ssh onto your Kodi machine
+2) Enable ssh access to Kodi
 
-3) 
+3) ssh onto your Kodi machine
+
+4) 
 
       mkdir /storage/local
       cd /tmp
       wget https://github.com/RamSailopal/resolvconf/raw/main/resolvconf.zip
       cd /storage/local
       unzip /tmp/resolvconf.zip
+      
+5) Download the .ovpn files for ProtonVPN using the following guide https://protonvpn.com/support/vpn-config-download/
+
+6) scp the downloaded zip file to the **/tmp** folder of your Kodi machine.
+
+7)    mkdir /tmp/ProtonVPN
+      cd /tmp/ProtonVPN
+      unzip /tmp/ProtonVPN_server_configs.zip
+      
 
 
 
