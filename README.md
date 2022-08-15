@@ -49,7 +49,7 @@ LibreElec is a minimilized Linux operating system used to exclusively run Kodi. 
 ## Configuration
 
 
-There will be two files in **/storage/local/etc**
+There will be two DNS configuration files in **/storage/local/etc**
 
 **VPNDNS.conf** - This file will contain DNS servers when disconnected i.e.
   
