@@ -1,4 +1,4 @@
-# resolvconf
+## resolvconf
 
 Resolvconf binary
 
@@ -37,6 +37,10 @@ LibreElec is a minimilized Linux operating system used to exclusively run Kodi. 
       mkdir /tmp/ProtonVPN
       cd /tmp/ProtonVPN
       unzip /tmp/ProtonVPN_server_configs.zip
+      
+8)    Set up a User Defined connection in the Kdi OpenVPN addon using the following guide - https://github.com/Zomboided/service.vpn.manager/wiki/09.-User-Defined-VPNs
+      Use **/tmp/ProtonVPN** as the location of the opvpn files
+     
       
 
 
