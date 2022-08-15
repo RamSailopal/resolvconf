@@ -20,11 +20,11 @@ LibreElec is a minimilised Linux operating system used to exclusively run Kodi. 
 
 3) 
 
-    mkdir /storage/local
-    cd /tmp
-    wget https://github.com/RamSailopal/resolvconf/raw/main/resolvconf.zip
-    cd /storage/local
-    unzip /tmp/resolvconf.zip
+      mkdir /storage/local
+      cd /tmp
+      wget https://github.com/RamSailopal/resolvconf/raw/main/resolvconf.zip
+      cd /storage/local
+      unzip /tmp/resolvconf.zip
 
 
 
