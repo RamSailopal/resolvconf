@@ -4,7 +4,7 @@
 
 Resolvconf binary
 
-Used to set up VPN connection for Kodi running LibreElec, running on a RasberryPi, using ProtonVPN (https://protonvpn.com/) as a service provider
+Used to set up VPN connections for Kodi running LibreElec, running on a RasberryPi, using ProtonVPN (https://protonvpn.com/) as a service provider
 
 LibreElec is a minimilized Linux operating system used to exclusively run Kodi. This means that the root file system is read only and it is difficult to add additional applications outside of the Kodi interface.
 
