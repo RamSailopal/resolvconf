@@ -41,7 +41,7 @@ LibreElec is a minimilized Linux operating system used to exclusively run Kodi. 
       unzip /tmp/ProtonVPN_server_configs.zip
       
 8) Set up a User Defined connection in the Kodi OpenVPN addon using the following guide - https://github.com/Zomboided/service.vpn.manager/wiki/09.-User-Defined-VPNs
-      Use **/tmp/ProtonVPN** as the location of the opvpn files. When entering username and password credentials, **make sure that you use the Open VPN credentials supplied by Proton VPN as opposed the the Proton VPN account credentials**
+      Use **/tmp/ProtonVPN** as the location of the opvpn files. When entering username and password credentials, **make sure that you use the Open VPN credentials supplied by Proton VPN as opposed to the Proton VPN account credentials**
       
 9) Amend the imported vpn files with the following command:
 
